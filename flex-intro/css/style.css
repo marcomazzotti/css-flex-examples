@@ -45,3 +45,14 @@ body{
 .align-items{
   align-items: flex-end;
 } 
+
+/* flex-wrap: wrap per andare alla riga successiva quando gli elementi non ci stano */
+/* spazio tra le righe gestito da align content ma solo con flex wrap */
+
+/* justify content per asse principale
+align items per asse secondario */
+
+/* per row dimensione principale width
+per coloum dimensione principale height
+
+per flex-items: flex basis per la base, guarda la direzione del container (row = width e per coloum height) */
