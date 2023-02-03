@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 20px;
+}
+.wrapper{
+  border: 2px solid black;
+  min-height: 400px;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.blu{
+  background-color: blue;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content{
+  justify-content:space-evenly;
+}
+
+.align-items{
+  align-items: flex-end;
+} 
